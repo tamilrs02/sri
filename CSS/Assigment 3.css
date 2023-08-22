@@ -1,0 +1,182 @@
+.bg{
+  background: linear-gradient(rgba(15,23,43,.9),rgba(15,23,43,.9)),url("../Images/bg-hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+}
+
+.piza
+{
+  width: 100%;
+}
+.logo
+{
+  color: orange;
+}
+.head {
+  overflow: hidden;
+  background-color: #0F172B;
+  padding: 20px 10px;
+}
+.head  a {
+  float: left;
+  font-family: "Heebo",sans-serif;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-left > button
+{
+  color: white;
+  border-radius: 3px;
+  background-color: orange;
+  border: none;
+  height: 45px;
+  width: 170px;
+}
+.header a.logo {
+  color: orange;
+  font-size: 25px;
+  font-family: "Nunito",sans-serif;
+  font-weight: bold;
+}
+.header-left :hover {
+  color: orange;
+}
+.header-left {
+  float: right;
+}
+.head2
+{
+  color: white;
+  border: 45% solid none;
+  width: 38%;
+  font-family: "Nunito",sans-serif;
+  margin-top: 150px;
+  margin-left: 90px;
+} 
+.head2 > button
+{
+  color: white;
+  border-radius: 3px;
+  background-color: orange;
+  border: none;
+  height: 45px;
+  width: 170px;
+}
+.head2 > img
+{
+
+  margin-left: 700px;
+  max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.head3
+{
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+}
+.head3 > div
+{
+  border:none;
+  width: 190px;
+  height: 220px;
+  box-shadow: 0 0 5px whitesmoke    ;
+  margin: 5px;
+  padding: 1.5rem
+}
+.head3 > div:hover 
+{
+    color: white;
+    background-color: orange;
+}
+#img1
+{
+  width:270px;
+  margin-left: 50px;
+}
+#img2
+{
+  width:210px;
+  margin-left: 10px;
+}
+#img3
+{
+  width:180px;
+  margin-left: 50px;
+}
+#img4
+{
+  width:270px;
+  margin-left: 10px;
+}
+.abtparent
+{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+}
+.abt > button
+{
+  color: white;
+  border-radius: 3px;
+  background-color: orange;
+  border: none;
+  height: 45px;
+  width: 170px;
+}
+.foodmenu > h3
+{
+text-align:center;
+margin: 1px;
+}
+.table
+{
+  margin-left: 100px;
+  padding: 2px;
+}
+.table > h4
+{
+  font-size: 20px;
+}
+.form
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.box{
+  background-color:rgba(15,23,43,.9) ;
+  border:none;
+  width: 640px;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+.box input
+{
+  height: 50px; width: 280px;
+  margin: 6px;
+}
+.box select
+{
+  height: 50px; width: 280px;
+} 
+.box button
+{
+  height: 50px; width: 590px;
+  background-color: orange;
+  color: white;
+} 
+.box
+{
+  
+}

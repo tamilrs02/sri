@@ -1,0 +1,16 @@
+#para{
+    color: blueviolet;
+}
+.gr{
+    color: green;
+}
+
+*{
+    color: blue ;
+}
+div>a{
+    color: brown;
+}
+div a{
+    color: fuchsia;
+}

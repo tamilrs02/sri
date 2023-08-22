@@ -1,0 +1,778 @@
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.parent1 {
+    width: 99%;
+    display: grid;
+    grid-template-columns: 5% 80% 10%;
+    /* padding: 8px; */
+    border-bottom: 2px solid rgb(180, 180, 180);
+    justify-content: center;
+}
+
+.nav1 {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.nav2 {
+    /* border: 1px solid gray; */
+    width: 28%;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgb(190, 186, 186);
+    height: 30px;
+    /* margin-right: 5px; */
+}
+
+.nav2 input {
+    outline: 0;
+    border: none;
+    background-color: white;
+    color: rgb(175, 175, 175);
+    padding: 5px 60px 0px 15px;
+    /* position: relative; */
+    /* top: 0; */
+    /* right: 0; */
+    border-radius: 5px;
+}
+
+.nav2 i {
+    background-color: rgb(255, 78, 14);
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 5px;
+    /* position: absolute; */
+}
+
+.nav3 {
+    width: 100%;
+}
+
+.nav3 #img1 {
+    /* margin-left: 1px; */
+    margin-bottom: 14px;
+}
+
+.nav3 #img2 {
+    margin-left: 5px;
+    margin-bottom: 14px;
+}
+
+.nav3 #img3 {
+    margin-left: 5px;
+    width: 25%;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+span i {
+    background-color: rgb(255, 78, 14);
+}
+
+.parent2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    /* padding: 5px; */
+}
+
+.hed1 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.hed2 {
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+}
+
+.hed2 a {
+    text-decoration: none;
+}
+
+.hed3 {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.hed3 span {
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(175, 175, 175);
+}
+
+.select {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.select p {
+    margin-left: 30px;
+}
+
+.select select {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.parent3 {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-evenly;
+    /* border-radius: 30px; */
+}
+
+.parent3 .graph1 {
+    padding: 30px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.parent3 .graph2 {
+    margin-left: 20px;
+    width: 95%;
+}
+
+.parent3 .graph2 .right {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 50px;
+}
+
+.right #child1 {
+    width: 60%;
+    padding: 5px 10px 5px 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+#child1 .label {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: rgb(255, 48, 117);
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 7px 2px 7px 5px;
+}
+#child2 .label {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 7px 2px 7px 5px;
+}
+#child3{
+    margin-top: 10px;
+}
+#child3 .label {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 7px 2px 7px 5px;
+}
+#child4{
+    margin-top: 10px;
+}
+#child4 .label {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 7px 2px 7px 5px;
+}
+#child1 p {
+    font-size: 14px;
+    margin-left: 2px;
+    color: rgb(175, 175, 175);
+}
+
+.right #child2 {
+    width: 60%;
+    padding: 5px 10px 15px 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+#child2 p {
+    font-size: 14px;
+    margin-left: 2px;
+    color: rgb(175, 175, 175);
+}
+
+.right #child3 {
+    width: 60%;
+    padding: 5px 10px 15px 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+
+#child3 p {
+    font-size: 14px;
+    margin-left: 2px;
+    color: rgb(175, 175, 175);
+}
+
+.right #child4 {
+    width: 60%;
+    padding: 5px 10px 15px 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+#child4 p {
+    font-size: 14px;
+    margin-left: 2px;
+    color: rgb(175, 175, 175);
+}
+
+.right1 {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 15px;
+    color: white;
+}
+
+#gani {
+    margin-right: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#gani a {
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(255, 78, 14);
+}
+
+#gani small {
+    font-size: 11px;
+    color: rgb(175, 175, 175);
+}
+
+.parent4 {
+    width: 100%;
+    margin-top: 280px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+
+.parent4 #ganin {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 30% 10% 20%;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    /* margin-top: 40px; */
+}
+
+.parent4 #ganin:hover {
+    background-color: rgb(196, 255, 235);
+}
+
+#ganin img {
+    box-shadow: 0 0 3px aqua;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#ganin p {
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#ganin #p {
+    color: rgb(143, 143, 143);
+    margin-top: 20px;
+}
+
+#ganin i {
+    margin-top: 20px;
+}
+
+/* .para:hover{
+    background-color: rgb(0, 247, 255);
+} */
+.select select {
+    margin-top: 10px;
+}
+
+#img img {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 65%;
+    margin-top: 20px;
+}
+
+.img img {
+    box-shadow: 0 0 1px gray;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+}
+
+.img p {
+    margin-top: -3px;
+}
+
+.img small {
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+}
+
+.parent4 .para {
+    width: 100%;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.para #box1 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+
+
+#box1 input {
+    margin-top: 30px;
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 1px grey;
+    background-color: white;
+    color: rgb(175, 175, 175);
+    padding: 5px 0 1px 5px;
+    border-radius: 5px;
+}
+
+#box1 i {
+    background-color: rgb(255, 78, 14);
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    /* margin-top: 30px; */
+    /* margin-left: 5px; */
+}
+
+#box1 h3 {
+    color: rgb(136, 136, 136);
+}
+
+#select {
+    text-align: end;
+    border: none;
+}
+
+#ganin {
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    width: 100%;
+}
+
+.select {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.sales {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 30px;
+}
+
+.sales img {
+    box-shadow: 0 0 1px gray;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+#last {
+    width: 100%;
+}
+
+#last img {
+    width: 100%;
+    height: 250px;
+    /* margin-top: 20px; */
+}
+
+.sales h3 {
+    margin-top: -10px;
+}
+
+.sales h3 small {
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+}
+
+.parent5 {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    /* box-shadow: 0 0 5px gray; */
+    border-radius: 5px;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    /* margin-left: 70px; */
+}
+
+.parent5 .a {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 20% 30%;
+}
+
+.a a {
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    /* border: 1px solid gray; */
+}
+
+.a {
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.a #pro {
+    color: rgb(129, 129, 255);
+    font-size: 14px;
+}
+
+.a p {
+    font-size: 14px;
+}
+
+.parent5 .mahi {
+    box-shadow: 0 0 5px gray;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.parent5 .mahi1 {
+    box-shadow: 0 0 5px gray;
+    margin-left: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#mahi {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#mahi select {
+    margin-top: 20px;
+}
+
+.parent6 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.dio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    margin-top: 10px;
+}
+
+.dio img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dio a {
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+    font-size: 14px;
+}
+
+.dio small {
+    color: rgb(99, 99, 99);
+}
+
+#name {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 2px gray;
+}
+
+#name a {
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+#name p {
+    margin-left: 40px;
+}
+
+#stoke {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#stoke select {
+    margin-top: 23px;
+}
+
+.sathish {
+    box-shadow: 0 0 6px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.arasu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.arasu i {
+    color: rgb(109, 0, 211);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.arasu h3 {
+    margin-top: 0px;
+    color: rgb(56, 0, 109);
+    font-size: 18px;
+}
+
+.arasu p {
+    margin-top: 0px;
+    font-size: 14px;
+    color: gray;
+}
+
+#letter img {
+    width: 90%;
+    margin-top: 30px;
+}
+
+#input {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+#first a {
+    text-decoration: none;
+    color: gray;
+}
+
+#first p {
+    border: 1px solid rgb(186, 235, 255);
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 11px;
+}
+
+#email {
+    width: 90%;
+}
+
+#email a {
+    text-decoration: none;
+    color: gray;
+}
+
+#email p {
+    border: 1px solid rgb(186, 235, 255);
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 11px;
+}
+
+#role {
+    width: 50%;
+}
+
+#role select {
+    width: 60%;
+    padding: 11px;
+    border: 1px solid rgb(186, 235, 255);
+
+}
+
+#button {
+    width: 100%;
+    margin-top: 30px;
+    /* margin-left: 40px; */
+
+}
+
+#button a {
+    text-decoration: none;
+}
+
+#button button {
+    border: none;
+    padding: 15px 80px 15px 80px;
+    background-color: rgb(103, 103, 255);
+    color: white;
+    border-radius: 15px;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+}
+
+.parent7 {
+    width: 90%;
+    box-shadow: 0 0 10px gray;
+    margin-left: 55px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.parent7 .saro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 35% 15%;
+    justify-content: center;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+.saro p {
+    margin-left: 10px;
+}
+
+.saro select {
+    margin-top: 15px;
+}
+
+.nav4 {
+    width: 74%;
+    height: 28px;
+    margin-top: 10px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 1px rgb(134, 134, 134);
+}
+
+.nav4 input {
+    outline: 0;
+    border: none;
+    background-color: white;
+    color: rgb(133, 133, 133);
+    padding: 5px 60px 0px 15px;
+    border-radius: 5px;
+}
+
+.nav4 i {
+    background-color: rgb(255, 78, 14);
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    /* margin-top: 1px; */
+    margin-left: 20px;
+}
+
+.parent7 #ganin1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 30% 10% 20%;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    /* margin-top: 40px; */
+}
+
+.parent7 #ganin1:hover {
+    background-color: rgb(196, 255, 235);
+}
+
+#ganin1 {
+    margin-top: 10px;
+}
+
+.no1 {
+    margin-left: 10px;
+}
+
+#ganin1 p {
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#ganin1 #p {
+    color: rgb(143, 143, 143);
+    margin-top: 20px;
+}
+
+#ganin1 i {
+    margin-top: 20px;
+}
+
+.paru {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#ganin1 img {
+    box-shadow: 0 0 3px aqua;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}

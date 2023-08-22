@@ -1,0 +1,235 @@
+.parent{width: 100%;}
+.a1{
+    background-color: orange;
+    width: 95%;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.a
+{
+    display: grid;
+    grid-template-columns:repeat(2,50%);
+    justify-content: space-evenly;
+}
+.b{
+
+    background-color: greenyellow;
+    width: 97%;
+    height: 310px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.c1{
+    background-color: rgb(61, 61, 230);
+    width: 99%;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: px;
+    margin-right: 23px;
+    padding-top: 5px;
+}
+.c
+{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:repeat(3,31%);
+    justify-content: space-evenly;
+}
+.d1
+{
+    background-color:grey;
+    width: 90%;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.d
+{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    justify-content: space-evenly;
+}
+@media only screen and (min-width: 320px) and (max-width:480px) 
+{
+    .parent{width: 100%;}
+.a1{
+    background-color: orange;
+    width: 95%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+}
+.a
+{
+    display: grid;
+    grid-template-columns:repeat(1,100%);
+    justify-content: space-evenly;
+}
+.b{
+
+    background-color: greenyellow;
+    width: 97%;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.c1{
+    background-color: rgb(61, 61, 230);
+    width: 99%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: px;
+    margin-right: 23px;
+    padding-top: 5px;
+}
+.c
+{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:repeat(1,90%);
+    justify-content: space-evenly;
+}
+.d1
+{
+    background-color:grey;
+    width: 99%;
+    height: 50px;
+}
+.d
+{
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    justify-content: space-evenly;
+}
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) 
+{
+    .parent{width: 100%;}
+.a1{
+    background-color: orange;
+    width: 95%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+}
+.a
+{
+    display: grid;
+    grid-template-columns:repeat(1,100%);
+    justify-content: space-evenly;
+}
+.b{
+
+    background-color: greenyellow;
+    width: 97%;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.c1{
+    background-color: rgb(61, 61, 230);
+    width: 99%;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: px;
+    margin-right: 23px;
+    padding-top: 5px;
+}
+.c
+{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:repeat(1,90%);
+    justify-content: space-evenly;
+}
+.d1
+{
+    background-color:grey;
+    width: 99%;
+    height: 90px;
+}
+.d
+{
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns:repeat(2,50%);
+    justify-content: space-evenly;
+}
+}
+@media only screen and (min-width: 1024px) {
+    .a1{
+        background-color: orange;
+        width: 95%;
+        height: 90px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 5px;
+    }
+    .a
+    {
+        display: grid;
+        grid-template-columns:repeat(2,50%);
+        justify-content: space-evenly;
+    }
+    .b{
+    
+        background-color: greenyellow;
+        width: 97%;
+        height: 310px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 5px;
+    }
+    .c1{
+        background-color: rgb(61, 61, 230);
+        width: 99%;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: px;
+        margin-right: 23px;
+        padding-top: 5px;
+    }
+    .c
+    {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns:repeat(3,31%);
+        justify-content: space-evenly;
+    }
+    .d1
+    {
+        background-color:grey;
+        width: 90%;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 5px;
+    }
+    .d
+    {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns:repeat(4,25%);
+        justify-content: space-evenly;
+    }
+}

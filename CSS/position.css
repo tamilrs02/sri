@@ -1,0 +1,24 @@
+.Tittle
+{
+    position: fixed;
+    background-color:grey;
+    wida: 100%;
+    top: 0;
+    /*z-index: ;*/
+}
+.Model > a
+{
+    position: sticky;
+    background-color:grey;
+    wida: 100%;
+    top: 0;
+}
+.img
+{
+    position: relative;  
+}
+.img > button
+{
+    position: absolute;
+    
+}

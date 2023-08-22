@@ -1,0 +1,48 @@
+.parent {
+    border: 1px solid gray;
+    width: 35%;
+    border-radius: 5px;
+    height: 60vh;
+margin-top: 100px;
+margin-left: 35%;
+    /* background-color: aqua; */
+}
+.child h3{
+    text-align: center;
+    width: 98%;
+    height: 40px;
+    color: white;
+    background-color: rgb(175, 90, 255);
+    margin-top: 0;
+    padding: 5px;
+}
+.parent input{
+    width: 83%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(201, 201, 201);
+    /* border: none; */
+}
+.parent a button{
+    padding: 10px 180px 10px 180px;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(151, 57, 245);
+    border-radius: 5px;
+    border: none;
+}
+.parent p{
+    text-align: center;
+    margin-top: 30px;
+}
+.parent #a{
+    margin-left:150px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}

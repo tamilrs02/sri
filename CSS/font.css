@@ -1,0 +1,16 @@
+p{
+    color: firebrick;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    /*letter-spacing: 20px;*/
+    word-spacing: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow:1px 2px 2px salmon;
+    white-space: nowrap; wida: 50%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}

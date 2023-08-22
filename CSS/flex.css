@@ -1,0 +1,31 @@
+.child > img
+{
+    
+    width: 250px;
+}
+.parent
+{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.parent > img
+{
+    width: 100%;
+}
+.child:nth-child(1)
+{
+order: 4;
+}
+.child:nth-child(2)
+{
+order: 3;
+}
+.child:nth-child(3)
+{
+order: 2;
+}
+.child:nth-child(4)
+{
+order: 1;
+}
